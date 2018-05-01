@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,500" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
+<link href="socketsgame.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="left">
+            <img class="logo" src="pics/logobw.png">
+        </div>
+        <div class="right">
+            <a class="name1"  href="#">Nicholas</a>
+            <a class="name2"  href="#">Malfitano</a>
+            <a class="a"  href="index.html">Home</a>
+            <a class="a"  href="page2.html">App Academy Projects</a>
+            <a class="a"  href="page3.html">Other Projects</a>
+            <a class="a"  href="page4.html">Extracurricular Activities</a>
+        </div>
+    </div>
+    <div class="imgbox">
+            <img class="desert" src="pics/og.jpg">
+    </div>
+    <div id="everything">
+        <div id="text">
+            <h1 id="subtitle">1. Battlestar Galactica</h1>
+            <p>This App Academy Projects Goal was to create a multiplayer game. The game I chose to do was a simple shooter where if                you hit your enemy you get a point. The game has very simple controls for Player 1 (Red) is the arrow keys to move and M              to shoot for Player 2 (Green) the controls are WASD and Q to shoot. The game is called Battle Star Galactica because you              battle in space and they skins for the players are from Galaga. We used socket.io and p5.js for this project sockets                  allows you to host your project on a server and make it multiplayer and p5 is what allows you to draw and make the game.              Overall what i like about this project was the freedom we had to create whatever type of game we wanted.</p>
+        </div>
+    
+        <div id="game">
+        <div>
+            <div id="player1">
+            <h2 id="score1"></h2>
+            <input placeholder="Enter Name Here" id="name1" type="text">
+             <button type="button" onclick="submitName1()" >Submit</button>
+        </div>
+        <div id="player2">
+            <h2 id="score2"></h2>
+            <input placeholder="Enter Name Here" id="name2" type="text">
+            <button type="button" onclick="submitName2()" >Submit</button>
+            </div>
+        </div>
+        
+        <div id="gamecontainer">
+        </div>
+        </div>
+    </div>
+    
+    <script src="p5.min.js"></script>
+    <script src="page2.js"></script>
+</body>
+</html>

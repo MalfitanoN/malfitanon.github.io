@@ -1,0 +1,327 @@
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*Fade In*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+#fade {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*For All Pages*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    /*background-color: rgba(30, 5, 5, 0.5);*/
+    
+}
+
+#title{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 40px;
+    /*background-color: #d1c8c8;*/
+    margin: 0px;
+    background-image: url(pics/ogb.jpg);
+}
+
+.a:hover { 
+    color: black;
+    background-color: white;
+  
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+#here{
+    background-color: #d1c8c8;
+    color: black
+}
+
+.a{
+    color: white;
+}
+
+#navbar .a {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 35px;
+  text-decoration: none;
+}
+
+.logo{
+    width: 70px;
+    margin: 0px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.name1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    float: left;
+    display: block;
+    color: white;
+    font-size: 25px;
+    pointer-events: none;
+    cursor: default;
+    
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.name2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    float: left;
+    display: block;
+    color: white;
+    font-size: 25px;
+    pointer-events: none;
+    cursor: default;
+    
+    margin-right: 230px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.imgbox{
+    display: grid;
+   height: 100%;
+}
+
+.desert{
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*For Page 1*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+#subtitle{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    margin: 0px;
+    color: darkred;
+}
+
+#me{
+    margin-top: 40px;
+    width: 250px;
+    float: left;
+    margin-left: 285px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    
+}
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*For Page 2*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*For Page 3*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+#subtitle3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    margin: 0px;
+    color: darkred;
+}
+
+#front{
+    float: left;
+    width: 250;
+    margin-left: 370px;
+    margin-right: 100px;
+    
+}
+
+#back{
+    float: right
+    width: 250;
+    margin-top: 55px;
+    
+}
+
+#shirt{
+    width: 250px;
+}
+
+#text1{
+    margin-top: 40px;
+    width: 400px;
+    float: right;
+    margin-right: 345px;
+}
+
+#middle{
+    float: none
+    
+}
+
+.thumbnail{
+    width: 250px;
+    padding: none;
+    margin: none;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#teeinfo{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*NAV BAR*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*Footer*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+.copyright{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.footerlink1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding-right: 10px;
+    margin-right: 20px;
+    border-right: 2px;
+    border-right-style: solid;
+    border-color: white;
+    text-decoration: none;
+    color: white;
+}
+
+.footerlink2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+   padding-right: 10px;
+    margin-right: 20px;
+    border-right: 2px;
+    border-right-style: solid;
+    border-color: white;
+    text-decoration: none;
+    color: white;
+}
+
+.footerlink3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding-right: 10px;
+    margin-right: 20px;
+    border-right: 2px;
+    border-right-style: solid;
+    border-color: white;
+    text-decoration: none;
+    color: white;
+}
+
+.footerlink4{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    bottom: 0;
+    width:100%;
+    height: 140px;   /* Height of the footer */
+    background:black;
+    text-align: center;
+}
+

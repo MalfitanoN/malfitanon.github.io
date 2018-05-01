@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Rajdhani|Lato');
+#text{
+    float: left;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+
+#game{
+    float: right;
+    background-color: darkgrey;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 40px;
+}
+h2{
+    margin: 0px;
+    padding: 0px:
+}
+
+#box{
+    text-align: center;
+    width:800px;
+}
+
+#player1{
+   width:300px; 
+    float:right;
+    margin-right: 10px; 
+}
+
+#player2{
+    width:300px; 
+    float:left;
+    margin-left: 10px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    text-align: center;
+    background-position: top;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    padding: 0px;
+}
+
+
+canvas {
+    border: 1px inset;
+}
